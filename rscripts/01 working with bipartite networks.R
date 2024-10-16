@@ -2,6 +2,7 @@
 rm(list = ls())
 # restore the library
 renv::restore()
+d
 # get the libraries needed
 library(igraph)
 library(bipartite)
